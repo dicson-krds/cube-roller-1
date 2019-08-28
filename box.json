@@ -1,0 +1,10 @@
+{
+	"name": "Cube Roller",
+	"description": "It was a 3D Cube Roller that rotated around one of the axes working with CSS 3D",
+	"author": "Dicson",
+	"author-email": "smartdicson@gmail.com",
+	"image": "img/packshot.png",
+	"gif": "img/packshot.gif",
+	"tags": "3d cube, cube roller, CSS 3D effects",
+	"repo-url": "https://github.com/dicson-ui/cube-roller"
+}

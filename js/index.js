@@ -65,7 +65,6 @@ var cube3d = {
 				forceStop = true;
 				cube3d.downSetup();	// Scroll down
 				setTimeout(function () { forceStop = false; }, scrollIntervel + 50);
-				console.log('Scroll down', evt.wheelDelta)
 			} else {
 				if (forceStop)
 					return;
@@ -73,7 +72,6 @@ var cube3d = {
 				forceStop = true;
 				cube3d.upSetup();	// Scroll Up
 				setTimeout(function () { forceStop = false; }, scrollIntervel + 50);
-				console.log('Scroll up', evt.wheelDelta)
 			}
 			setTimeout(function () {	// Reset Rodate after complete 360 deg
 				cube3d.resetRodate();
